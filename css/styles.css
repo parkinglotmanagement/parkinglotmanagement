@@ -1,0 +1,223 @@
+
+.container {
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    height: 10%;
+    padding: 10%;
+    opacity: 0.89;
+    border-radius: 10px;
+    background-color: #405840;
+}
+
+.title {
+    width: 100%;
+    height: 69px;
+    margin: 10%;
+    opacity: 0.89;
+    font-family: OpenSans;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    margin: 1%;
+    opacity: 0.89;
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.button{
+    width: 50%;
+    height: 100%;
+    margin-left: 27%;
+    padding: 3%;
+    opacity: 0.89;
+    border-radius: 20px;
+    background-color: #0ba9ff;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.container_dashboard {
+    margin-right: 25%;
+    margin-left: 16%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    height: 10%;
+    padding: 10%;
+    opacity: 0.89;
+    border-radius: 10px;
+    background-color: #405840;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #405840;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+i.custom {
+    font-size: 6em;
+    color: green;
+}
+
+.logoutLblPos {
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#parking {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#parking td,
+#parking th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#parking tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#parking tr:hover {
+    background-color: #ddd;
+}
+
+#parking th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
